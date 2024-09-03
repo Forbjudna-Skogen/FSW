@@ -1,0 +1,215 @@
+body {
+
+  font-size: 1.2rem;
+
+  font-family: monospace;
+
+
+}
+
+h1,
+h2,
+p {
+
+  max-width: 80ch;
+
+}
+
+.container {
+
+  max-width: 56rem;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  padding-left: 1rem;
+
+  padding-right: 1rem;
+
+  padding-bottom: 50px;
+}
+
+
+
+
+.hero{
+  
+  position: relative;
+
+  background-color: blueviolet;
+
+  height: 50vh;
+
+  position: relative;
+
+  max-width: 90rem;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  padding-left: 1rem;
+
+  padding-right: 1rem;
+
+}
+
+
+
+
+
+.hero h1 {
+
+  font-size: 5rem;
+
+  color: aliceblue;
+
+}
+
+.hero a {
+
+  font-size: 2rem;
+
+
+}
+
+.cta {
+
+  display: block;
+
+  color: aliceblue;
+
+  font-size: 2rem;
+
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  padding: 0,3rem;
+  background-color: var(--color-bg);
+  font-size: 1.4rem;
+  border: 3px solid gray;
+  
+}
+
+/* The following data-layout exceptions control how the navbar is displayed */
+.navbar[data-layout="container"] {
+  display: block;
+  padding: 0;
+}
+
+.navbar[data-layout="inner"] {
+  display: flex;
+}
+
+.navbar[data-layout="center"] {
+  justify-content: space-around;
+}
+
+.navbar[data-layout="split"] {
+  justify-content: space-between;
+}
+
+/*  Class to style the unordered list which represents the actual menu */
+.nav {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+/* Style links within the nav element, add :hover to improve */
+.nav a {
+  text-decoration: none;
+}
+
+.nav-link {
+  color: var(--color-link);
+}
+
+/*  Brand or logo for the page */
+.brand {
+  white-space: nowrap;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.brand>svg {
+  fill: var(--color-primary);
+}
+
+.brand>svg:hover {
+  opacity: .9;
+}
+
+.active {
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer-section {
+  margin: 10px;
+  min-width: 200px;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  filter: invert(1); /* Gör ikonerna vita */
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+      flex-direction: column;
+      align-items: center;
+  }
+}
