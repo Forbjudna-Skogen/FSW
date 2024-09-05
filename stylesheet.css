@@ -74,7 +74,29 @@ p {
 
 }
 
+@media only screen and (max-width: 600px) {
+  .hero {
+   
+    position: relative;
 
+  background-color: rgb(26, 143, 104);
+
+  height: 30vh;
+
+  position: relative;
+
+  max-width: 90rem;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  padding-left: 1rem;
+
+  padding-right: 1rem;
+  
+}
+}
 
 
 
@@ -86,6 +108,20 @@ p {
 
 }
 
+@media only screen and (max-width: 600px) {
+
+  .hero h1 {
+
+    font-size: 3rem;
+  
+    color: aliceblue;
+  
+  }
+  
+
+}
+
+
 .hero h2{
 
   font-size: 1.4rem;
@@ -95,10 +131,37 @@ p {
 
 }
 
+@media only screen and (max-width: 600px) {
+
+  .hero h2{
+
+    font-size: 1rem;
+  
+    color: aliceblue;
+  
+  
+  }
+  
+
+}
+
+
 .hero a {
 
   font-size: 2rem;
 
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .hero a {
+
+    font-size: 1.2rem;
+  
+  
+  }
+  
 
 }
 
