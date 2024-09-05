@@ -5,6 +5,7 @@ body {
   font-family: monospace;
 
 
+
 }
 
 h1,
@@ -30,14 +31,32 @@ p {
   padding-bottom: 50px;
 }
 
+.container-flöde {
+
+  max-width: 56rem;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  padding-left: 1rem;
+
+  padding-right: 1rem;
+
+  padding-bottom: 50px;
+
+  margin-bottom: 50px;
+
+  background-color: #cacaca;
+}
 
 
 
-.hero{
-  
+.hero {
+
   position: relative;
 
-  background-color:rgb(26, 143, 104);
+  background-color: rgb(26, 143, 104);
 
   height: 50vh;
 
@@ -67,6 +86,15 @@ p {
 
 }
 
+.hero h2{
+
+  font-size: 1.4rem;
+
+  color: aliceblue;
+
+
+}
+
 .hero a {
 
   font-size: 2rem;
@@ -89,11 +117,11 @@ p {
   flex-wrap: wrap;
   align-items: center;
   gap: 1rem;
-  padding: 0,3rem;
+  padding: 0, 3rem;
   background-color: var(--color-bg);
   font-size: 1.4rem;
   border: 3px solid gray;
-  
+
 }
 
 /* The following data-layout exceptions control how the navbar is displayed */
@@ -182,7 +210,8 @@ footer {
   margin-bottom: 10px;
 }
 
-.footer-section p, .footer-section a {
+.footer-section p,
+.footer-section a {
   color: white;
   text-decoration: none;
 }
@@ -199,7 +228,8 @@ footer {
 .social-icons img {
   width: 24px;
   height: 24px;
-  filter: invert(1); /* Gör ikonerna vita */
+  filter: invert(1);
+  /* Gör ikonerna vita */
 }
 
 .footer-bottom {
@@ -209,7 +239,7 @@ footer {
 
 @media (max-width: 600px) {
   .footer-container {
-      flex-direction: column;
-      align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
 }
