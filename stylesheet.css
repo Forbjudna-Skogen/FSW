@@ -4,8 +4,6 @@ body {
 
   font-family: monospace;
 
-  
-
 }
 
 h1,
@@ -99,8 +97,6 @@ p {
 
       object-fit: cover;
 
-      
-
   }
 
 }
@@ -144,11 +140,6 @@ p {
   flex-wrap: wrap;
   flex-direction: row;
   gap: 1rem;
-
-
-
-
-
 }
 
 /* Style links within the nav element, add :hover to improve */
@@ -188,9 +179,6 @@ img {
   margin-left: 10px;
 
 }
-
-
-
 
 
 footer {
